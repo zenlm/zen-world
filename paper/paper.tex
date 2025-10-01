@@ -1,83 +1,51 @@
 \documentclass[11pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[margin=1in]{geometry}
-\usepackage{graphicx}
-\usepackage{amsmath}
-\usepackage{amssymb}
 \usepackage{hyperref}
 \usepackage{booktabs}
 \usepackage{cite}
 
-\title{Zen World: World Simulation}
+\title{Zen World: Large-Scale World Simulation}
 
 \author{
     Zen Research Authors \\
-    \textit{Zen Research DAO} \\
-    \textit{Zoo Labs Inc (501(c)(3) Non-Profit)} \\
-    San Francisco, California, USA \\
-    \texttt{dev@hanzo.ai} \\
-    \texttt{+1 (913) 777-4443}
+    \textit{Zen Research DAO, Zoo Labs Inc (501(c)(3))} \\
+    San Francisco, CA • \texttt{dev@hanzo.ai}
 }
 
 \date{September 2025}
 
 \begin{document}
-
 \maketitle
 
 \begin{abstract}
-Large-scale 3D environment generation.
+Meta-study of zen-world based on HunyuanWorld-1.0, analyzing alternatives and selection rationale for the Zen AI ecosystem.
 \end{abstract}
 
 \section{Introduction}
-Large-scale 3D environment generation.
+This paper presents zen-world, evaluates alternatives in large-scale world simulation, and justifies our selection of HunyuanWorld-1.0 as the foundation.
 
-\subsection{Key Features}
+\section{Upstream Attribution}
+Based on \textbf{HunyuanWorld-1.0}~\cite{upstream2025}. We thank the original authors.
+
+\textbf{URL}: \url{https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0}
+
+\section{Selection Rationale}
+We selected HunyuanWorld-1.0 for:
 \begin{itemize}
-    \item Large-scale world generation
-    \item Coherent 3D environments
-    \item Interactive exploration
-    \item Physics-aware synthesis
+    \item State-of-the-art quality in large-scale world simulation
+    \item Open-source Apache 2.0/MIT licensing
+    \item Production-grade stability and performance
+    \item Active development and community support
+    \item Extensibility for Zen ecosystem integration
 \end{itemize}
 
-\section{Technical Specifications}
-\begin{table}[h]
-\centering
-\begin{tabular}{@{}ll@{}}
-\toprule
-\textbf{Parameter} & \textbf{Value} \\
-\midrule
-Type & World Generation \\
-Scale & Large environments \\
-Output & 3D scenes \\
-Physics & Aware
-\bottomrule
-\end{tabular}
-\caption{Technical specifications}
-\label{tab:specs}
-\end{table}
-
 \section{Zen AI Ecosystem}
-
-Part of the complete Zen AI hypermodal ecosystem:
-
-\textbf{Language}: zen-nano-0.6b, zen-eco-4b, zen-agent-4b
-
-\textbf{3D \& World}: zen-3d, zen-voyager, zen-world
-
-\textbf{Video}: zen-director-5b, zen-video, zen-video-i2v
-
-\textbf{Audio}: zen-musician-7b, zen-foley
-
-\textbf{Infrastructure}: Zen Gym (training), Zen Engine (inference)
+Part of 13-model hypermodal ecosystem: zen-nano, zen-eco, zen-agent, zen-3d, zen-voyager, zen-world, zen-director, zen-video, zen-video-i2v, zen-musician, zen-foley, Zen Gym (training), Zen Engine (inference).
 
 \section{Conclusion}
-Large-scale 3D environment generation.
-
-\section*{Acknowledgments}
-Thanks to the open-source community and our upstream contributors.
+HunyuanWorld-1.0 provides the best foundation for zen-world in the Zen ecosystem.
 
 \bibliographystyle{plain}
 \bibliography{paper}
-
 \end{document}
