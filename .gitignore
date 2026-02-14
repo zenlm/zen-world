@@ -1,3 +1,11 @@
 # Ignore Python bytecode files
 __pycache__/
 *.pyc
+
+
+
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+GROK.md
+QWEN.md
