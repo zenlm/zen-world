@@ -1,10 +1,11 @@
-Zen World
-Copyright (c) 2024-2026 Zen LM, Inc.
+zen-world
+Copyright 2025-2026 Zen Authors
 
-Developed by Zen LM, Inc. in collaboration with Hanzo AI and Zoo Labs Foundation.
-Licensed under the Apache License, Version 2.0 (see LICENSE).
+Licensed under the Apache License, Version 2.0.
+Developed by the Zen Authors (https://zenlm.org).
 
-The shipped Zen World model weights (https://huggingface.co/zenlm/zen-world) are
-built upon Wan2.1-T2V-14B (https://huggingface.co/Wan-AI/Wan2.1-T2V-14B),
-Copyright (c) Alibaba (Wan-AI team), licensed under Apache-2.0 — unconditionally
-commercial. See REBASE.md for the status of the repository inference code.
+Built on:
+Wan2.1 / Wan2.2 (Alibaba, Apache-2.0) — permissive and commercial-friendly. The shipped weights (https://huggingface.co/zenlm/zen-world) are already based on Wan2.1-T2V-14B (Apache-2.0).
+
+Removed (non-permissive — not used):
+- Tencent HunyuanWorld-1.0 (TENCENT HUNYUANWORLD-1.0 COMMUNITY LICENSE — commercial-capped).
