@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="zen-world" width="880"></p>
+
 # Zen World
 
 Immersive 3D world and panoramic scene generation.
